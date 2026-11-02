@@ -38,7 +38,7 @@ Building a step-by-step learner's guide for the "1 Day Software Testing ILT" (Ui
 ## Stack & deploy mechanics
 
 - MkDocs + Material theme, `mkdocs.yml` at repo root, content in `docs/`.
-- `.github/workflows/deploy.yml` runs `pip install mkdocs-material && mkdocs gh-deploy --force` on every push to `main`, publishing to the `gh-pages` branch.
+- `.github/workflows/deploy.yml` runs `pip install mkdocs-material && mkdocs gh-deploy --force` on every push to `main`, publishing to the `gh-pages` branch of `uipath-practice/SoftwareTestingCourse` (`origin`). The old `meera-uipath/software-testing-ilt-guide` repo is archived and its site redirects to the new URL.
 - GitHub Pages Settings → Pages → Source = "Deploy from a branch" → `gh-pages` / `(root)`.
 - Meera is logged into GitHub (as MeeraKay) in the Claude-in-Chrome browser session tied to this Cowork workspace.
 
