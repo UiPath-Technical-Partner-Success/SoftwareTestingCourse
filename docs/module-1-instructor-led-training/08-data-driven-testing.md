@@ -116,7 +116,7 @@ Three primary strategies exist for creating test data:
 </div>
 
 !!! note "Optional topics"
-    Generating synthetic test data (using Activities and Autopilot) and Auto Generate for path coverage are covered as optional topics in [Module 3 — Additional Topics](../module-3-additional-topics/06-generating-synthetic-test-data.md).
+    Generating synthetic test data (using Activities and Autopilot) and Auto Generate for path coverage are covered as optional topics in [Module 3 — Additional Topics](../module-3-additional-topics/07-generating-synthetic-test-data.md).
 
 
 ## Data Driven Test Case
