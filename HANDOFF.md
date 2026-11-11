@@ -44,21 +44,21 @@ Building a step-by-step learner's guide for the "1 Day Software Testing ILT" (Ui
 
 ### Publishing an update: auto-deploy check (since 2026-11-11)
 
-After the move to the org, pushes to `main` did not start the deploy workflow. GitHub received the pushes, but no run started. Every time `main` was pushed together with `dev` in one `git push`, no deploy ran. Every earlier push of `main` on its own did start one. Likely cause, not yet confirmed: pushing several branches at once.
+Since the move to the org, pushes to `main` do not start the deploy workflow. GitHub receives each push (it shows in the repo's activity log), but no run starts. Pushing `main` together with `dev` and pushing `main` on its own both failed on 2026-11-11, so the way the branches are pushed is not the cause. The repo settings don't block it either: Actions is enabled, and there are no rulesets, branch protection or webhooks. Starting the workflow by hand works. Cause unknown; it needs an org admin to check the org's Actions settings.
 
 Every time the guide is updated:
 
 1. Merge as usual: feature branch → `dev` → `main`.
-2. Push `main` **on its own** first, then `dev`:
+2. Push both branches:
    ```bash
    git push origin main
    git push origin dev
    ```
-3. Open **Actions** in the repo and check that a new **Deploy MkDocs site to GitHub Pages** run started, with event `push`.
+3. Open **Actions** in the repo and check whether a new **Deploy MkDocs site to GitHub Pages** run started, with event `push`. If one did, auto-deploy works again: remove this section and the pending item below.
 4. If no run started within a minute, start it by hand: **Actions → Deploy MkDocs site to GitHub Pages → Run workflow** on `main`. Or run `gh workflow run deploy.yml -R UiPath-Technical-Partner-Success/SoftwareTestingCourse --ref main`.
 5. Wait for the run and the **pages build and deployment** run after it to go green, then reload the live site to check the change.
 
-If a push of `main` on its own does not start the deploy either, ask an org admin to check the org's Actions settings for this repo.
+Until an org admin finds the cause, step 4 is needed after every update.
 
 ## How we've been making changes (keep doing this)
 
@@ -84,7 +84,7 @@ Meera's explicit preference: **Claude should not commit/merge directly to `main`
 3. **Visual placeholders:** many pages have `!!! note "Image needed"` blocks marking where original screenshots/diagrams/videos should go — these are real gaps (couldn't scrape images/video), not something to auto-generate.
 4. **Downloadable exercise files** (zip, .tmh, .xlsx, .csv) are linked directly to the original Articulate CDN URLs rather than rehosted in the repo — my sandbox's network allowlist blocked downloading them, and the browser bridge blocks relaying raw binary data. If Meera wants them fully self-hosted, she'd need to download them herself and hand them over; direct CDN URLs are in the PR #1 diff / `docs/index.md` etc. if needed again.
 5. **No custom logo image** — header currently uses a generic Material icon (`material/robot-outline`) since no UiPath/course logo asset was provided. Swap in a real logo if Meera provides one.
-6. **Auto-deploy on push is not confirmed in the org repo.** See "Publishing an update: auto-deploy check" above: push `main` on its own, and start the deploy by hand if no run appears.
+6. **Auto-deploy on push doesn't work in the org repo.** After each update, start the deploy by hand (see "Publishing an update: auto-deploy check" above). Ask an org admin to check the org's Actions settings.
 
 ## Things that went wrong (avoid repeating)
 
