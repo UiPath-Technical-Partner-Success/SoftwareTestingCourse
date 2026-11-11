@@ -10,7 +10,7 @@ The size of a box on the Heatmap shows how relevant a test is for a specific goa
 
 
 <video width="100%" controls style="border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.08); margin: 20px 0;">
-  <source src="../../assets/videos/SAP%20Heatmap.mp4" type="video/mp4">
+  <source src="../../assets/Videos/SAP%20Heatmap.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -49,7 +49,7 @@ Powered by AI and machine learning, Change Impact Analysis for SAP scopes testin
 
 
 <video width="100%" controls style="border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.08); margin: 20px 0;">
-  <source src="../../assets/videos/Change%20Impact%20analysis.mp4" type="video/mp4">
+  <source src="../../assets/Videos/Change%20Impact%20analysis.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
