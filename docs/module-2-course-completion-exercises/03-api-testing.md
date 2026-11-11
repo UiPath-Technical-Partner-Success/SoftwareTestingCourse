@@ -53,7 +53,7 @@ Postman is a collaboration platform for API development — its features simplif
 Let's watch API Testing using UiPath.
 
 <video width="100%" controls style="border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.08); margin: 20px 0;">
-  <source src="../../assets/videos/API-testing.mp4" type="video/mp4">
+  <source src="../../assets/Videos/API-testing.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

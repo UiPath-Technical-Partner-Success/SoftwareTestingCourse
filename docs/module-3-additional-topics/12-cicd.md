@@ -20,7 +20,7 @@ CI/CD is a step-by-step approach to continuously and consistently code, build, t
 Pipelines are predefined jobs that clarify what needs to happen and when. Jobs run in parallel where possible, to speed up delivery. A typical pipeline pushes code to the repository, triggers a build, tests it, and deploys to production — tailored to your needs, pipelines can have multiple stages, jobs, and varying complexity.
 
 <video width="100%" controls style="border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.08); margin: 20px 0;">
-  <source src="../../assets/videos/cicd.mp4" type="video/mp4">
+  <source src="../../assets/Videos/cicd.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
