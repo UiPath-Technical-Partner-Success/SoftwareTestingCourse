@@ -8,7 +8,7 @@ With Autopilot search, you can search for any test object within a project using
 If you're not sure what to search for, use one of the example search queries Autopilot provides. After results return, Autopilot also lets you perform actions on the resulting objects.
 
 <video width="100%" controls style="border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.08); margin: 20px 0;">
-  <source src="../../assets/videos/Search%20Test%20Objects_v1.mp4" type="video/mp4">
+  <source src="../../assets/Videos/Search%20Test%20Objects_v1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -82,7 +82,7 @@ The report can include up to five sections, each with multiple insights. For eac
 Let's see how it works.
 
 <video width="100%" controls style="border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.08); margin: 20px 0;">
-  <source src="../../assets/videos/Test%20Cloud-%20Test%20Manager%20Autopilot%20Chat.mp4" type="video/mp4">
+  <source src="../../assets/Videos/Test%20Cloud-%20Test%20Manager%20Autopilot%20Chat.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

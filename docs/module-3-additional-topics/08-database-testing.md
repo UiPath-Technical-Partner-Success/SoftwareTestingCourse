@@ -49,7 +49,7 @@ With UiPath Test Cloud, you can perform **Data Validation Testing**, a part of d
     Windows projects require the 64-bit driver installed on the machine to establish a database connection.
 
 <video width="100%" controls style="border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.08); margin: 20px 0;">
-  <source src="../../assets/videos/database%20testing.mp4" type="video/mp4">
+  <source src="../../assets/Videos/database%20testing.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
